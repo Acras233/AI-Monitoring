@@ -1,0 +1,26 @@
+# Created by# 忽略所有大模型/权重文件
+*.bin
+*.pth
+*.pt
+*.model
+*.weights
+*.onnx
+*.h5
+*.ckpt
+*.pkl
+*.dat
+*.tar
+*.zip
+*.rar
+*.7z
+*.jpg
+*.png
+*.mp4
+*.safetensors
+# 忽略数据集、缓存
+dataset/
+data/
+weights/
+venv/
+__pycache__/
+*.pyc venv; see https://docs.python.org/3/library/venv.html
